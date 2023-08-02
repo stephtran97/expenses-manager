@@ -20,18 +20,17 @@ export default function ExpenseForm(props) {
   const submitHandler = (e) => {
     e.preventDefault();
     if (enteredAmount === "" || enteredTitle === "" || enteredDate === "") {
-      console.log("Please check the data");
-    } else {
-      const expenseData = {
-        title: enteredTitle,
-        amount: +enteredAmount,
-        date: new Date(enteredDate),
-      };
-      setEnteredTitle("");
-      setEnteredAmount("");
-      setEnteredDate("");
-      props.onSaveExpenseData(expenseData);
+      return;
     }
+    const expenseData = {
+      title: enteredTitle,
+      amount: +enteredAmount,
+      date: new Date(enteredDate),
+    };
+    setEnteredTitle("");
+    setEnteredAmount("");
+    setEnteredDate("");
+    props.onSaveExpenseData(expenseData);
   };
 
   return (
