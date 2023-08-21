@@ -1,6 +1,6 @@
 .new-expense__controls {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -25,5 +25,29 @@
 .new-expense__actions {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+@media (max-width: 767px) {
+  .new-expense__controls {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 370px) {
+  .new-expense__control input {
+    width: 15rem;
+  }
+}
+@media (max-width: 285px) {
+  .new-expense__controls {
+    display: block;
+  }
+  .new-expense__actions {
+    margin-top: 1rem;
+  }
+  .new-expense__actions button {
+    padding: 0.5rem;
+  }
 }
