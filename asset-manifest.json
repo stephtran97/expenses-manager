@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/expenses-manager/static/css/main.5aa6a6e0.css",
-    "main.js": "/expenses-manager/static/js/main.b5d04459.js",
+    "main.css": "/expenses-manager/static/css/main.b6007b31.css",
+    "main.js": "/expenses-manager/static/js/main.a301085e.js",
     "index.html": "/expenses-manager/index.html",
-    "main.5aa6a6e0.css.map": "/expenses-manager/static/css/main.5aa6a6e0.css.map",
-    "main.b5d04459.js.map": "/expenses-manager/static/js/main.b5d04459.js.map"
+    "main.b6007b31.css.map": "/expenses-manager/static/css/main.b6007b31.css.map",
+    "main.a301085e.js.map": "/expenses-manager/static/js/main.a301085e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aa6a6e0.css",
-    "static/js/main.b5d04459.js"
+    "static/css/main.b6007b31.css",
+    "static/js/main.a301085e.js"
   ]
 }
