@@ -65,8 +65,8 @@ export default function ExpenseForm(props) {
           />
         </div>
         <div className="new-expense__actions">
-          <button onClick={props.onAddingNewExpense}>Cancel</button>
           <button type="submit">Add expense</button>
+          <button onClick={props.onAddingNewExpense}>Cancel</button>
         </div>
       </div>
     </form>
